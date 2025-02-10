@@ -25,10 +25,11 @@ function salvarItem() {
     if (checarDuplicado) {
         alert("O item: " + comprasItem + " já existe");
     } else {
-        listaDeItens.push({
-            valor: comprasItem,
-            checar: false
-        });
+        pessoas.push({
+            valor:nome,
+            checar:false
+        })
+        console.log(pessoas)
     }
 
     itensInput.value=''
